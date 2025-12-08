@@ -39,6 +39,8 @@ public class LoginTest extends BaseTest{
 		login.clickLogin();
 		Log.info("Clicked Login button");
 		
+		
+		
 		String dashboardUrl = driver.getCurrentUrl();
 		Assert.assertTrue(dashboardUrl.contains("login"));
 		Log.info("Test case: loginInvalidCredentials execution completed");
