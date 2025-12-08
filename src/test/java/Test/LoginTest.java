@@ -35,7 +35,9 @@ public class LoginTest extends BaseTest{
 		login.enterUsername("Admin");
 		Log.info("Entered username Admin");
 		login.enterPassword("admin1234");
-		Log.info("Entered password admin1234");
+		Log.info("Entered password admin1234");   
+		
+		
 		login.clickLogin();
 		Log.info("Clicked Login button");
 		
