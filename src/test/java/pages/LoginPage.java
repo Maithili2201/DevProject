@@ -17,6 +17,9 @@ public class LoginPage extends BasePage{
 		// TODO Auto-generated constructor stub
 	}
 
+	
+	
+	
 	public boolean enterPassword(String pwd) {
 		enterText(edtPassword,pwd);
 		return true;
